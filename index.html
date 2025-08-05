@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="shortcut icon" href="./src/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="hero">
+        <div class="hero_container">
+            <img class="hero_container_logo" src="./dist/images/logo-serie.png" alt="logo Rick and morty">
+            <h3 class="text-small">Acompanhe malucas viagens no tempo-espaço e por universos paralelos com Rick, um cientista com
+                problemas com a bebida, e seu neto Morty, um adolescente não tão brilhante quanto o avô.</h3>
+            <a href="https://www.hbomax.com/br/pt/shows/rick-morty/s8/ab553cdc-e15d-4597-b65f-bec9201fd2dd" class="button"
+                target="_blank" rel="noopener noreferrer">Assista agora</a>
+        </div>
+    </section>
+    <section class="show">
+        <nav class="show_tabs">
+            <button data-tab-button="familia" class="show_tabs_button show_tabs_button--active"><img class="img" src="./src/images/icon-morty.png" alt="">família sanchez</button>
+            <button data-tab-button="inimigo" class="show_tabs_button"><img class="img" src="./src/images/icon-rick.png" alt="">inimigos do rick</button>
+        </nav>
+        <ul data-tab-id="familia" class="show_list show_list--active">
+            <li class="show_list_item">
+                <img class="image-list" src="./dist/images/profile/rick-profile.webp" alt="">
+            </li>
+            <li class="show_list_item">
+                <img class="image-list" src="./dist/images/profile/morty-profile.webp" alt="">
+            </li>
+            <li class="show_list_item">
+                <img class="image-list" src="./dist/images/profile/bethClone1-profile.webp" alt="">
+            </li>
+            <li class="show_list_item">
+                <img class="image-list" src="./dist/images/profile/bethClone2-profile.webp" alt="">
+            </li>
+            <li class="show_list_item">
+                <img class="image-list" src="./dist/images/profile/jerry-profile.webp" alt="">
+            </li>
+            <li class="show_list_item">
+                <img class="image-list" src="./dist/images/profile/summer-profile.webp" alt="">
+            </li>
+        </ul>
+        <ul data-tab-id="inimigo" class="show_list show_list">
+            <li class="show_list_item">
+                <img class="image-list" src="./dist/images/profile/mortyEvil-profile.webp" alt="">
+            </li>
+            <li class="show_list_item">
+                <img class="image-list" src="./dist/images/profile/rickPrime-profile.webp" alt="">
+            </li>
+            <li class="show_list_item">
+                <img class="image-list" src="./src/images/profile/nimbus-profile.webp" alt="">
+            </li>
+            <li class="show_list_item">
+                <img class="image-list" src="./dist/images/profile/presidente-profile.webp" alt="">
+            </li>
+            <li class="show_list_item">
+                <img class="image-list" src="./dist/images/profile/StoryLord-profile.webp" alt="">
+            </li>
+            <li class="show_list_item">
+                <img class="image-list" src="./src/images/profile/supernova-profile.webp" alt="">
+            </li>
+        </ul>
+    </section>
+
+    <script src="./src/scripts/main.js"></script>
+</body>
+
+</html>
